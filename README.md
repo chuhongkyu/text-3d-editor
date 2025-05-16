@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 3D 텍스트 에디터
 
-## Getting Started
+이 프로젝트는 웹 기반의 3D 텍스트 에디터입니다. 사용자가 텍스트를 입력하고 다양한 3D 효과를 적용하여 멋진 텍스트 이미지를 만들 수 있습니다.
 
-First, run the development server:
+## 주요 기능
 
+- 3D 텍스트 생성 및 편집
+- 다양한 폰트 및 스타일 옵션
+- 3D 효과 조절 (회전, 깊이, 그림자 등)
+- 이미지 저장 및 다운로드
+- 실시간 미리보기
+
+## 기술 스택
+
+- Next.js 15
+- React 19
+- Three.js
+- React Three Fiber
+- TailwindCSS
+- Zustand (상태 관리)
+
+## 시작하기
+
+1. 저장소를 클론합니다:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone [repository-url]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. 의존성을 설치합니다:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. 개발 서버를 실행합니다:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. 브라우저에서 [http://localhost:3000](http://localhost:3000)으로 접속합니다.
 
-## Learn More
+## 사용 방법
 
-To learn more about Next.js, take a look at the following resources:
+1. 텍스트 입력: 상단의 텍스트 입력란에 원하는 텍스트를 입력합니다.
+2. 스타일 설정: 폰트, 크기, 색상 등을 선택합니다.
+3. 3D 효과: 깊이, 회전, 그림자 등의 3D 효과를 조절합니다.
+4. 저장: 완성된 3D 텍스트를 이미지로 저장합니다.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 기여하기
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+프로젝트에 기여하고 싶으시다면 Pull Request를 보내주세요. 모든 기여를 환영합니다!
 
-## Deploy on Vercel
+## 라이선스
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT License
